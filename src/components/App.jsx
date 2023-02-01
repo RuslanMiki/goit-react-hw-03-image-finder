@@ -6,7 +6,7 @@ import ImageGallery from './ImageGallery/ImageGallery';
 import Modal from './Modal/Modal';
 import Button from './Button/Button';
 import Loader from './Loader/Loader';
-import { fetchImages } from 'components/services/fetchImages';
+import { fetchImages } from 'services/fetchImages';
 
 class App extends Component {
   state = {
